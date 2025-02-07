@@ -90,7 +90,7 @@ export async function POST(request: NextRequest) {
             }
             
             const imgElement = el.querySelector("img");
-            let thumbnail = imgElement?.src || "https://imgs.search.brave.com/4g4GFqi0GfyV1NY16cG5XsEvUnzhjUv2Qd7w0OPOlwU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG40/Lmljb25maW5kZXIu/Y29tL2RhdGEvaWNv/bnMvdWktYmVhc3Qt/NC8zMi9VaS0xMi01/MTIucG5n";
+            const thumbnail = imgElement?.src || "https://imgs.search.brave.com/4g4GFqi0GfyV1NY16cG5XsEvUnzhjUv2Qd7w0OPOlwU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG40/Lmljb25maW5kZXIu/Y29tL2RhdGEvaWNv/bnMvdWktYmVhc3Qt/NC8zMi9VaS0xMi01/MTIucG5n";
 
             
 
