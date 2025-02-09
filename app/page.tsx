@@ -43,7 +43,7 @@ export default function Home() {
     setIsLoading(true);
 
     try {
-      const response = await fetch("/api/scrape-playlist", {
+      const response = await fetch("http://localhost:5000/scrape-playlist", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
