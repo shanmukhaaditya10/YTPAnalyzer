@@ -1,6 +1,8 @@
 # YouTube Playlist Analyzer
 
 This Next.js application allows users to analyze YouTube playlists, displaying video information and a view count graph.
+![image](https://github.com/user-attachments/assets/47cba31f-d7a7-4a3a-bcdd-c9324317e87f)
+
 
 ## Setup
 
