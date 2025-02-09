@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build && npx playwright install",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+   
+      "postinstall": "playwright install && playwright install-deps"
+    
   },
   "dependencies": {
     "@radix-ui/react-icons": "^1.3.0",
