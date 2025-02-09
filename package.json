@@ -4,11 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && npx playwright install",
+    "build": "npx playwright install --with-deps && next build",
     "start": "next start",
-    "lint": "next lint",
-   
-      "postinstall": "npx playwright install && playwright install-deps"
+    "lint": "next lint"
+
     
   },
   "dependencies": {
