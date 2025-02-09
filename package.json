@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "npx playwright install --with-deps && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "vercel-build": "npx playwright install --with-deps && next build"
 
     
   },
