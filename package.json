@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
    
-      "postinstall": "playwright install && playwright install-deps"
+      "postinstall": "npx playwright install && playwright install-deps"
     
   },
   "dependencies": {
