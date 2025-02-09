@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: youtube-playlist-scraper
+    env: node
+    buildCommand: npm install && npx playwright install --with-deps
+    startCommand: node server.js
+    envVars:
+      - key: NODE_VERSION
+        value: 16
+      - key: PLAYWRIGHT_BROWSERS_PATH
+        value: 0
