@@ -82,11 +82,3 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## Deployment
-
-Before deploying, ensure your hosting environment supports server-side scraping with Playwright. You may need to install additional dependencies or use a specialized deployment platform.
-
----
-
-Take this project as a starting point for your own YouTube playlist analyzer application. Feel free to modify and customize it to suit your needs.
